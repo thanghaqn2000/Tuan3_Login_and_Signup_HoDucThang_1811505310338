@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="185dp"
+        android:layout_height="148dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginRight="118dp"
+        app:srcCompat="@drawable/skype" />
+
+    <EditText
+        android:id="@+id/editUserName"
+        android:layout_width="262dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:layout_marginBottom="370dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_baseline_adb_24"
+        android:drawableTint="#fff"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColor="#B4FFFFFF"
+        android:textColorHint="#B4FFFFFF"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="262dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:layout_marginBottom="295dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawableTint="#fff"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#B4FFFFFF"
+        android:textColorHint="#B4FFFFFF"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp"
+        android:layout_marginBottom="185dp"
+        android:background="@drawable/buttonstyle"
+        android:text="Login"
+        android:textColor="#fff"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:onClick="btn_Register_Form"
+        android:id="@+id/register"
+        android:layout_width="160dp"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="127dp"
+        android:layout_marginRight="127dp"
+        android:layout_marginBottom="106dp"
+        android:gravity="center"
+        android:text="Register Here."
+        android:textColor="#B4FFFFFF"
+        android:textSize="17dp" />
+</RelativeLayout>

@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Login_HoDucThang_1811505310338"
